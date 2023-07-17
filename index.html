@@ -9,19 +9,28 @@
 </head>
 <body class="border-0 p-0 m-0">
     <!-- working on nav bar -->
-    <nav class="bg-slate-300">
+<div class="mx-auto container">
+    <nav  class="bg-white ">
         <div class="flex justify-between items-center p-8">
             <div><span><img src="src/logos/logo.svg" alt=""></span></div>
-            <div class="flex space-x-8">
+            <div class="hidden md:flex md:space-x-8 ">
                 <span><img src="src/logos/charm-menu-staff-students.svg" alt=""></span>
                 <span ><img width="100" src="src/logos/charm-menu-search.svg" alt=""></span>
                 <span><img width="100" src="src/logos/charm-menu.svg" alt=""></span>
             </div>
+            <div class="md:hidden m:flex md:justify-between md:items-center md:space-x-4">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
         </div>
     </nav>
     <!-- end of the nav bar  -->
+</div>
+    
 <!-- starting of new section  -->
-<section>
+<section class="container mx-auto">
     <!-- landing page -1 -->
     <div class="relative">
         <img src="src/imgs/clearing-homepage-1-compressed.jpeg" alt="landing img">
@@ -32,52 +41,56 @@
       </div>
       <!-- end of landing page -1 -->
       
-   <div class="grid grid-cols-3 grid-rows-2 mt-16  p-8 justify-center gap-6">
-    <div class="items-center">
-        <img src="src/imgs/homepage_hero_march_23.jpeg" alt="">
-        <div>
-            <h1 class="text-center text-2xl font-semibold">Postgraduates degree</h1>
-            <p class="text-center font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quis! Recusandae incidunt error ut, voluptate repudiandae minima velit voluptatem laboriosam reprehenderit modi, iure laborum eos est quae, enim dignissimos officia!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ear odit fugiat ipsam officia doloribus.</p>
+      <div class="flex flex-row">
+        <div class="grid grid-cols-3 grid-rows-2 mt-16 md:p-8 justify-center gap-6">
+          <div class="items-center row-span-2">
+            <img src="src/imgs/homepage_hero_march_23.jpeg" alt="">
+            <div>
+              <h1 class="text-center text-2xl font-semibold">Postgraduates degree</h1>
+              <p class="text-center font-medium">reprehenderit modi, iure laborum eos est quae, enim dignissimos officia!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ear odit fugiat ipsam officia doloribus.</p>
+              <hr class="text-center justify-center border w-96 bg-slate-500">
+              <span class="flex justify-between items-center text-blue-600">
+                Apply for 2023
+                <span><img src="src/logos/icon-more-666.svg" alt=""></span>
+              </span>
+            </div>
+          </div>
+          
+          <div class="md:text-center md:space-y-14">
+            <h1 class="text-2xl font-semibold">Study at goldSmith</h1>
+            <p>Explore our Guiding study at goldSmith</p>
+            <hr class="text-center justify-center border w-96 bg-slate-500">
             <span class="flex justify-between items-center text-blue-600">
+              study at goldSmith
+              <span><img src="src/logos/icon-more-666.svg" alt=""></span>
+            </span>
+          </div>
+          
+          <div class="flex flex-row justify-center md:relative md:bottom-[30%] md:space-y-14 md:bg-white md:flex md:flex-col md:justify-center">
+            <h1 class="text-2xl font-semibold text-center">goldSmith, University of London</h1>
+            <p class="px-4">Lorem . Dolorumis eaque fuga quos aspernatur, aliquid quia quidem ratione recusandae praesentium natus adipisci aperiam ab. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero harum, sunt quaerat eaque omnis molestiae voluptatum aperiam nam alias earum, a, porro minima! Repudiandae dolorum tenetur ad eum quaerat laborum?</p>
+            <hr class="text-center justify-center border w-96 bg-slate-500">
+            <span class="flex justify-between items-center text-blue-600">
+              About goldSmith
+              <span><img src="src/logos/icon-more-666.svg" alt=""></span>
+            </span>
+          </div>
+          
+          <div class="relative col-span-2">
+            <img width="500" src="src/imgs/Art-Psychotherapy-shows_-2015_11156.jpeg" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+            <div class="absolute col-start-2 row-start-2 top-[60%] left-[90%] w-52 transform translate-x-[-50%] translate-y-[-50%] bg-white">
+              <p class="text-center p-8">odit fugiat ipsam officia doloribus.</p>
+              <hr class="text-center justify-center border w-96 bg-slate-500">
+              <span class="flex flex-row justify-between items-center text-blue-600 pb-8">
                 Apply for 2023
                 <span><img src="src/logos/icon-more-666.svg" alt=""></span>
-            </span>
+              </span>
+            </div>
+          </div>
         </div>
-    </div>
-    
-    <div class="text-center space-y-14 ">
-        <h1 class=" text-2xl font-semibold">Study at goldSmith</h1>
-        <p>Explore our Guiding study at goldSmith</p>
-        <hr class=" text-center border h-1 w-52 bg-slate-500">
-        <span class="flex justify-between items-center text-blue-600">
-            study at goldSmith
-            <span><img src="src/logos/icon-more-666.svg" alt=""></span>
-            </span>
-    </div>
-    <div class="relative bottom-[30%]  space-y-14 bg-white flex flex-col justify-center ">
-        <h1 class=" text-2xl font-semibold text-center">goldSmith, University of London</h1>
-        <p class=" px-4">Lorem . Dolorumis eaque fuga quos aspernatur, aliquid quia quidem ratione recusandae praesentium natus adipisci aperiam ab. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero harum, sunt quaerat eaque omnis molestiae voluptatum aperiam nam alias earum, a, porro minima! Repudiandae dolorum tenetur ad eum quaerat laborum?</p>
-
-        <span class="flex justify-between items-center text-blue-600">
-          About goldSmith
-            <span><img src="src/logos/icon-more-666.svg" alt=""></span>
-            </span>
-    </div>
-    <div class="relative grid-cols-2 grid-rows-2">
-        <img src="src/imgs/Art-Psychotherapy-shows_-2015_11156.jpeg" alt="">
-        <div class="absolute col-start-2 row-start-2 top-[60%] left-1/2 transform translate-x-[-50%] translate-y-[-50%] bg-white">
-            <p>, corporis quae! Perferendis ut id, itaque excepturi, eaque veritatis a animi  voluptatem laboriosam reprehenderit modi, iure laborum eos est quae, enim dignissimos officia!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ear odit fugiat ipsam officia doloribus.</p>
-            <span class="flex flex-row justify-between items-center text-blue-600 pb-8">
-                Apply for 2023
-                <span><img src="src/logos/icon-more-666.svg" alt=""></span>
-            </span>
-        </div>
-    </div>
-    
-   </div>
+      </div>
+      
    <!-- end of grid pages  -->
-
-   <div>
     
     <div class="flex gap-6 p-8">
         <div>
@@ -102,37 +115,41 @@
                   </label>
             </div>  
             <div class="flex gap-4">
-               <span class="w-96 h-14 bg-white border-2 border-black"></span>
-                <button class="bg-yellow-400">Search</button>    
+                <input type="text" class="h-16 bg-white border-2 border-black w-120">
+                <button class="bg-yellow-400 py-4 px-8">Search</button>    
             </div>
         </div>    
     </div>
    </div>
    <!-- end of searching section  -->
-   
-  <div class="grid grid-cols-4 grid-rows-2 px-8 gap-4">
-    <div class="relative col-span-2">
-        <img width="650" src="src/imgs/pop-kat-double-crop-960.jpeg" alt="">
-        <div class=" absolute  top-[75%] right-10 transform translate-x-[-50%] translate-y-[-50%] bg-white items-center space-y-4">
-            <p class="text-center px-16">clothing patent reasearch reveals hidden history of womens sport</p>
-            <span class="flex flex-row justify-between items-center text-blue-600 pb-8">
-               politics of patents
-                <span><img src="src/logos/icon-more-666.svg" alt=""></span>
-            </span>
+   <div class="flex flex-col justify-center items-center px-8 space-y-4 ">
+       <div class="bg-slate-200 md:grid md:grid-cols-4 md:grid-rows-2 md:px-8 md:gap-4">
+        <div class="relative col-span-2 flex justify-center items-center">
+        <div class="flex flex-col">
+            <div class="md:absolute md:top-1/2 md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2 bg-white md:items-center md:space-y-4">
+                <p class="text-center px-16">clothing patent research reveals hidden history of women's sport</p>
+                <span class="flex flex-row justify-between items-center text-blue-600 pb-8">
+                    politics of patents
+                    <span><img src="src/logos/icon-more-666.svg" alt=""></span>
+                </span>
+            </div>
         </div>
-    </div>
+        <img width="650" src="src/imgs/pop-kat-double-crop-960.jpeg" alt="">
+          </div>
     
-<div class="space-y-16">
-    <h1 class="text-center pt-8 font-bold text-xl">independent antisemitism inquiry</h1>
-    <p>we are working to understand our jewish students and staff</p>
-    <span class="flex flex-row justify-between items-center text-blue-600 pb-8">
+         <div class="space-y-16">
+       <h1 class="text-center pt-8 font-bold text-xl">independent antisemitism inquiry</h1>
+        <p>we are working to understand our jewish students and staff</p>
+         <hr class=" text-center justify-center border  w-56 bg-slate-500">
+           <span class="flex flex-row justify-between items-center text-blue-600 pb-8">
         inquiry information
         <span><img src="src/logos/icon-more-666.svg" alt=""></span>
-    </span>
-</div>
-<div class="space-y-6">
+              </span>
+           </div>
+         <div class="space-y-6">
     <img src="src/imgs/Shadi-Al-Atallah-Cabin-Pressure-2021.-Courtesy-of-Guts-Gallery-and-the-Artist.jpeg" alt="">
     <p class="font-semibold">Lorem, lestiae hic recusandae illo voluptate esse, aperiam ratione vitae!</p>
+    <hr class=" text-center justify-center border  w-60 bg-slate-500">
     <span class="flex flex-row justify-between items-center text-blue-600 pb-8">
       Goldsmith CAA 
         <span><img src="src/logos/icon-more-666.svg" alt=""></span>
@@ -141,6 +158,7 @@
 <div>
     <img src="src/imgs/Artsmark.jpeg" alt="">
     <p class="font-semibold">Lorem, lestiae hic recusandae illo voluptate esse, aperiam ratione vitae!</p>
+    <hr class=" text-center justify-center border  w-52 bg-slate-500">
     <span class="flex flex-row justify-between items-center text-blue-600 pb-8">
     ARTS MARKS
         <span><img src="src/logos/icon-more-666.svg" alt=""></span>
@@ -149,6 +167,7 @@
 <div>
     <img src="src/imgs/Alba-Botines_01.jpeg" alt="">
     <p class="font-semibold">Lorem, lestiae hic recusandae illo voluptate esse, aperiam ratione vitae!</p>
+    <hr class=" text-center justify-center border  w-96 bg-slate-500">
     <span class="flex flex-row justify-between items-center text-blue-600 pb-8">
       Degree Shows
         <span><img src="src/logos/icon-more-666.svg" alt=""></span>
@@ -158,32 +177,31 @@
     <img src="src/imgs/Class-of-2016_-Graduation-2016_10686-s.jpeg" alt="">
     <div class="absolute bg-white top-1/2 left-1/3">
         <p class="font-semibold">Lorem, lestiae hic recusandae illo voluptate esse, aperiam ratione vitae!</p>
+        <hr class=" text-center justify-center border  w-96 bg-slate-500">
         <span class="flex flex-row justify-between items-center text-blue-600 pb-8">
           Degree Shows
             <span><img src="src/logos/icon-more-666.svg" alt=""></span>
         </span>
     </div>
    
-</div>
-</div>
+   </div>
+  </div>
+  </div>
  <!-- end of the second section  -->
 
 <div class="flex gap-8 my-16 ">
-    <h1 class="font-bold">NEWS</h1>
     <div class="flex gap-8">
-       
         <div class="flex flex-col items-center space-y-6">
             <img src="src/imgs/IFUpic.jpeg" alt="">
             <p class="text-center text-blue-700 font-semibold">Expert team partners in major Creative Industries Project</p>
             <span>14 jun 2023</span>
         </div>
-            <div class="flex flex-col items-center space-y-14">
-            <img src="src/imgs/Feltrinelli-Giovani-Prize-.jpeg" alt="">
+        <div class="flex flex-col items-center space-y-14">
+            <img  src="src/imgs/Feltrinelli-Giovani-Prize-.jpeg" alt="">
             <p class="text-center text-blue-700 font-semibold">Economist Awarded Top Academic Prize</p>
             <span>1 jun 2023</span>
         </div>
     </div>
-    <h1 class="font-bold">EVENTS</h1>
     <div class="flex gap-8">
         <div class="flex flex-col items-center space-y-8">
             <img src="src/imgs/image.jpeg" alt="">
